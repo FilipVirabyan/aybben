@@ -1,0 +1,9 @@
+.btn{
+  font-family: 'Roboto', sans-serif;
+}
+.btn.primary-btn{
+  background: var(--gradient);
+  box-shadow: 4px 4px 14px rgba(37, 121, 219, 0.32);
+  border-radius: 50px;
+  color: white;
+}

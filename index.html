@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aybben Technologies</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!-- Add your site or application content here -->
+<header class="header">
+  <div>
+    <img src="assets/img/logo.svg" alt="Aybben Technologies">
+  </div>
+  <div class="navigation-container">
+    <div class="navigation-link-container">
+      <a class="navigation-link" onClick="smoothScroll('expertise')">Our Expertise</a>
+      <a class="navigation-link" href="#">Industries</a>
+      <a class="navigation-link" href="#">About us</a>
+      <a class="navigation-link" href="#">Blog</a>
+    </div>
+
+    <button class="btn primary-btn">
+      Contact Us
+    </button>
+  </div>
+</header>
+<main>
+  <section class="wallpaper">
+    <div class="wallpaper-body">
+      <div class="title">
+        Innovate, Evolve, Succeed
+      </div>
+      <div class="subtitle">
+        Welcome to the Future of IT Services
+      </div>
+      <div class="description">
+        Revolutionize the IT industry with our innovative solutions at Aybben Tech. Thrive in the ever-changing digital
+        landscape with our passion for excellence and commitment to staying ahead.
+      </div>
+      <div class="action-container">
+        <button class="btn primary-btn">
+          Contact Us
+        </button>
+      </div>
+    </div>
+    <div class="w-100">
+      <div class="stat-container">
+        <div class="stat-body">
+          <div class="stat">+10</div>
+          <div class="stat-label">projects</div>
+        </div>
+        <div class="stat-body">
+          <div class="stat">+10</div>
+          <div class="stat-label">professionals</div>
+        </div>
+        <div class="stat-body">
+          <div class="stat">100%</div>
+          <div class="stat-label">job success</div>
+        </div>
+        <div class="stat-body">
+          <div class="stat">+30</div>
+          <div class="stat-label">technologies</div>
+        </div>
+      </div>
+      <div class="drop-btn-container">
+      <span class="material-symbols-outlined" onclick="smoothScroll('expertise')">
+        keyboard_arrow_down
+      </span>
+      </div>
+    </div>
+  </section>
+  <section id="expertise" class="expertise">
+    <div class="title-container">
+      <h1 class="title">Our Expertise</h1>
+    </div>
+    <div class="sections-tab-container">
+      <div class="mobile tab active" onclick="setActiveTab('mobile', event)"> Mobile Dev.</div>
+      <div class="web tab" onclick="setActiveTab('web', event)">Web Dev.</div>
+      <div class="back tab" onclick="setActiveTab('back', event)">Backend</div>
+      <div class="devops tab" onclick="setActiveTab('devops', event)">DevOps</div>
+      <div class="uiux tab" onclick="setActiveTab('uiux', event)">UX/UI Design</div>
+    </div>
+    <div class="sections-tab-body-container">
+      <div class="tab-body active" id="mobile">
+        <img src="./assets/img/mobile-sketch.svg">
+        <div class="tab-info">
+          <div class="tab-info-title">Mobile Development</div>
+          <div class="tab-info-desc">Aybben Tech specializes in delivering high-performance and user-friendly mobile
+            applications. Our expertise includes utilizing Flutter, a powerful cross-platform framework, to create
+            seamless and engaging mobile experiences for both iOS and Android platforms.
+            <pre></pre>
+            We assist clients in every step, from development and testing to publishing their apps on the respective
+            mobile stores.
+          </div>
+          <div class="tab-info-subtitle">Technologies or Tools</div>
+          <div class="tab-info-tools">
+            <img src="./assets/img/flutter.svg">
+            <img src="./assets/img/dart.svg">
+            <img src="./assets/img/firebase.svg">
+            <img src="./assets/img/gql.svg">
+            <img src="./assets/img/xcode.svg">
+            <img src="./assets/img/sqlLite.svg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-body" id="web">
+        <img src="./assets/img/web-dev-sketch.svg">
+        <div class="tab-info">
+          <div class="tab-info-title">Web Development</div>
+          <div class="tab-info-desc">Our web development service offers customized solutions to meet your specific
+            online needs. We specialize in creating dynamic, responsive websites, web applications, and innovative
+            solutions that engage your audience and drive business growth. With expertise in a range of technologies and
+            frameworks, we deliver high-quality web experiences that align with your goals and enhance your online
+            presence.
+          </div>
+          <div class="tab-info-subtitle">Technologies or Tools</div>
+          <div class="tab-info-tools">
+            <img src="./assets/img/flutter.svg">
+            <img src="./assets/img/dart.svg">
+            <img src="./assets/img/firebase.svg">
+            <img src="./assets/img/gql.svg">
+            <img src="./assets/img/xcode.svg">
+            <img src="./assets/img/sqlLite.svg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-body" id="back">
+        <img src="./assets/img/backend-sketch.svg">
+        <div class="tab-info">
+          <div class="tab-info-title">Backend</div>
+          <div class="tab-info-desc">Our backend development service ensures the seamless functionality of your web
+            applications. We leverage advanced technologies and frameworks to build robust APIs, handle data storage,
+            implement security measures, and enable seamless integration. From efficient database design to scalable
+            server deployment, our backend solutions optimize performance and reliability.
+          </div>
+          <div class="tab-info-subtitle">Technologies or Tools</div>
+          <div class="tab-info-tools">
+            <img src="./assets/img/flutter.svg">
+            <img src="./assets/img/dart.svg">
+            <img src="./assets/img/firebase.svg">
+            <img src="./assets/img/gql.svg">
+            <img src="./assets/img/xcode.svg">
+            <img src="./assets/img/sqlLite.svg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-body" id="devops">
+        <img src="./assets/img/devops-sketch.svg">
+        <div class="tab-info">
+          <div class="tab-info-title">DevOps</div>
+          <div class="tab-info-desc">Our DevOps practices streamline development, foster collaboration, and accelerate
+            software delivery. By leveraging tools like Git, Jenkins, Docker, Ansible, and Kubernetes, we automate
+            deployments, monitor systems, and ensure smooth operations. We specialize in infrastructure as code,
+            enabling seamless cloud resource management, and implement CI/CD pipelines for continuous integration and
+            delivery.
+          </div>
+          <div class="tab-info-subtitle">Technologies or Tools</div>
+          <div class="tab-info-tools">
+            <img src="./assets/img/flutter.svg">
+            <img src="./assets/img/dart.svg">
+            <img src="./assets/img/firebase.svg">
+            <img src="./assets/img/gql.svg">
+            <img src="./assets/img/xcode.svg">
+            <img src="./assets/img/sqlLite.svg">
+          </div>
+        </div>
+      </div>
+      <div class="tab-body" id="uiux">
+        <img src="./assets/img/uiux-sketch.svg">
+        <div class="tab-info">
+          <div class="tab-info-title">UX/UI Design</div>
+          <div class="tab-info-desc">Our talented UI/UX designers create visually appealing and intuitive interfaces
+            that enhance user experiences. By combining user research, wireframing, and prototyping, we ensure seamless
+            navigation and engaging interactions. We work with design tools such as Figma, Sketch, and Adobe XD.
+          </div>
+          <div class="tab-info-subtitle">Technologies or Tools</div>
+          <div class="tab-info-tools">
+            <img src="./assets/img/flutter.svg">
+            <img src="./assets/img/dart.svg">
+            <img src="./assets/img/firebase.svg">
+            <img src="./assets/img/gql.svg">
+            <img src="./assets/img/xcode.svg">
+            <img src="./assets/img/sqlLite.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="industries" class="industries">
+    <div class="title-container">
+      <h1 class="title">Industries</h1>
+    </div>
+    <div class="section-desc">
+      We provide expertise, innovative technology solutions, and support to businesses in various industries, helping
+      them succeed in the digital age.
+    </div>
+    <div class="section-body">
+      <div class="section-background">
+        <div class="industries-container">
+          <div class="card-wrapper">
+            <div class="industries-card">
+              <img src="assets/img/ind1.png">
+              <div class="card-info">
+                <div class="card-title">
+                  IoT
+                </div>
+                <div class="card-desc">
+                  We connect devices and systems, unlocking new possibilities in connectivity and automation.
+                </div>
+              </div>
+            </div>
+            <div class="industries-card">
+              <img src="assets/img/ind3.png">
+              <div class="card-info">
+                <div class="card-title">
+                  Healthcare
+                </div>
+                <div class="card-desc">
+                  We leverage technology to enhance healthcare delivery and improve patient outcomes.
+                </div>
+              </div>
+            </div>
+            <div class="industries-card">
+              <img src="assets/img/ind4.png">
+              <div class="card-info">
+                <div class="card-title">
+                  Communications
+                </div>
+                <div class="card-desc">
+                  We connect devices and systems, unlocking new possibilities in connectivity and automation.
+                </div>
+              </div>
+            </div>
+            <div class="industries-card">
+              <img src="assets/img/ind5.png">
+              <div class="card-info">
+                <div class="card-title">
+                  Business / IT services
+                </div>
+                <div class="card-desc">
+                  We provide comprehensive IT solutions and services to streamline operations and drive business
+                  success.
+                </div>
+              </div>
+            </div>
+            <div class="industries-card">
+              <img src="assets/img/ind6.png">
+              <div class="card-info">
+                <div class="card-title">
+                  EdTech
+                </div>
+                <div class="card-desc">
+                  We innovate education, empowering educators and students for revolutionary learning experiences.
+                </div>
+              </div>
+            </div>
+            <div class="industries-card">
+              <img src="assets/img/ind7.png">
+              <div class="card-info">
+                <div class="card-title">
+                  Retail
+                </div>
+                <div class="card-desc">
+                  We help retailers adapt to the digital landscape, optimize operations, and provide personalized
+                  experiences for customers.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide-navigation">
+        <span class="material-symbols-outlined" onclick="moveScroll()">
+          arrow_circle_left
+        </span>
+      <span class="material-symbols-outlined" onclick="moveScroll('add')">
+        arrow_circle_right
+      </span>
+    </div>
+  </section>
+</main>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
