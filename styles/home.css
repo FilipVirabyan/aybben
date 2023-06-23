@@ -8,15 +8,17 @@
   font-size: 56px;
   line-height: 68px;
   color: var(--primaryColor);
+  margin-top: 10px;
 }
 
 .wallpaper {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
   box-sizing: border-box;
-  margin-top: 10vh;
+  height: 100%;
+  gap: min(40px, 5%)
 }
 
 .wallpaper-body{
@@ -34,7 +36,7 @@
 }
 
 .wallpaper {
-  min-height: calc(100vh - (10vh + 103px));
+
 }
 
 .wallpaper .subtitle {
@@ -51,7 +53,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 72px;
+  margin-top: min(72px, 2%);
   color: #5E5E5E;
   text-transform: capitalize;
   max-width: 800px;
@@ -73,7 +75,7 @@
   background: rgba(8, 14, 66, 0.07);
   display: flex;
   width: 100%;
-  padding: 25px 0;
+  padding: min(25px,1%) 0;
   justify-content: center;
   box-sizing: border-box
 }
@@ -102,7 +104,7 @@
 }
 
 .wallpaper .stat-body{
-  padding: 25px 33px;
+  padding: min(25px,1%) 33px;
   width: 238px;
   border-right:  2.96047px solid rgba(255, 255, 255, 0.49);
 }

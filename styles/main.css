@@ -14,9 +14,15 @@
 @import "./buttons.css";
 @import "./experties.css";
 @import "./industries.css";
+
 html {
   color: rgba(8, 14, 66, 1);
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 :root {
@@ -27,8 +33,9 @@ html {
 }
 
 
-main{
+main {
   overflow-x: hidden;
+  height: calc(100% - 103px);
 }
 
 /*
@@ -194,9 +201,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -311,7 +318,7 @@ a {
   cursor: pointer;
 }
 
-.w-100{
+.w-100 {
   width: 100%;
 }
 
